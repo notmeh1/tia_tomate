@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    &__img {
+        margin: 1em 0 1em 1em;
+        width: 20%;
+    }
+
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3em 0;
+}
+.card__img {
+  width: 70%;
+}
+.card__title, .card__info {
+  width: 40%;
+}
+.card__title {
+  text-align: center;
+}
+.card__info {
+  margin-bottom: 10px;
+}
+
+.card-t2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 3em 0;
+}
+.card-t2__img {
+  width: 35%;
+}
+.card-t2__title, .card-t2__info {
+  width: 65%;
+}
+.card-t2__title {
+  text-align: center;
+}
+.card-t2__info {
+  margin-bottom: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.navbar__img {
+  margin: 1em 0 1em 1em;
+  width: 20%;
+}
+
+.bg-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background-color: #E56353;
+  color: #fff;
+}
+.bg-hero__title {
+  font-size: 4em;
+}
+
+.article-1 {
+  width: 100%;
+  background-color: #fff;
+  color: #686963;
+}
+
+.article-2 {
+  width: 100%;
+  background-color: #686963;
+  color: #fff;
+}
+
+.about {
+  width: 100%;
+}
+.about__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E56353;
+  color: #fff;
+  font-size: 3em;
+  padding: 1em 0 1em 0;
+  margin: 0;
+  width: 100%;
+}
+.about__buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E56353;
+  width: 100%;
+  padding: 1em 0 1em 0;
+  margin: 0;
+}
+.about__buy-title {
+  color: #fff;
+  font-size: 2.5em;
+}
+.about__buy-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0;
+  margin-bottom: 2em;
+  color: #696863;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #686963;
+}
+.footer__img {
+  margin: 1em 0;
+  width: 200px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
